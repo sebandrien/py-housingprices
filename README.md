@@ -31,6 +31,10 @@ This heatmap visualizes the correlation matrix for all the numerical features in
 This heatmap is similar to the previous one, but this time, it includes the ocean_proximity feature, which has been one-hot encoded (i.e., converted into binary variables for each category of proximity to the ocean). This encoding allows us to analyze the correlation of ocean proximity with other numerical features in the dataset.
 ![JupyterLab](images/graph_7.png)
 
+Feature Engineering
+
+To establish a new variable to get a better understanding of the data, a new variable 
+
 ## Conclusion
 
 Through the analysis of correlation metrics, we can uncover several significant relationships within the dataset, providing valuable insights into the factors that influence house prices. One of the most notable trends is that properties located closer to the ocean tend to have higher house values and are situated in areas with higher median incomes. This correlation suggests that ocean proximity is a key determinant of property value, likely due to the desirability of coastal locations, scenic views, and the potential for recreational opportunities. Additionally, areas near the ocean tend to attract higher-income residents, possibly due to the premium on housing in these regions.
